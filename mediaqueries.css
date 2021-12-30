@@ -1,0 +1,125 @@
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        background-color: rgb(192, 24, 192);
+        height: 80px;
+        box-shadow: 2px 2px 15px 0px rgb(0, 0, .42);
+        align-items: center;
+    }
+
+    .navbar .menu {
+        display: flex;
+        flex-direction: column;
+       position: absolute;
+       top: 60px;
+       background-color: rgb(192, 24, 192);
+       width: 45vw;
+        height: 50vh;
+        left: -13em;
+        transform: translateY(-150%);
+        transition: all 1.4s;
+    }
+    
+
+
+    .navbar .menu-toggle {
+        transform: translateY(0%);
+    }
+
+
+   .menu li {
+       margin-top: 2em;
+   }
+   
+
+   .navbar .menu-bar {
+    display: block;
+    font-size: 2em;
+    color: cornsilk;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    
+   }
+
+
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 70vh;
+    }
+
+   .main h1 {
+       margin-top: -240px;
+   }
+
+   .main .button-content {
+       display: flex;
+       flex-direction: column;
+   }
+   
+
+
+
+   .Container-footer {
+    position: absolute;
+    right: 15px;
+    
+}
+
+.Container-imagenes{
+    display: block;
+    width: 1430px;
+    height: 510px;
+    background:rgb(223, 173, 219);
+    padding: 5%;
+    border-radius: 6px;
+    
+}
+
+.container-imag1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.container-imag2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.container-imag3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+
+.container-contactanos {
+    width: 400px;
+    height: 150px;
+    background:rgb(223, 173, 219);
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    position: absolute;
+    left: 10px;
+    top: 230px;
+}
+
+   
+
+}
+    

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Playfair+Display:ital,wght@0,600;1,500;1,600&family=Roboto:wght@100;300;500;900&display=swap');
+@import './mediaqueries.css'; 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Imagenes/banner2.jpg);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+
+}
+
+.navbar .brand {
+    color: rgb(226, 144, 37);
+}
+
+
+
+.navbar .menu {
+    grid-column: 6 / 9;
+    display: flex;
+    margin-top: 12px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin-right: 3em;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 400;
+   
+}
+
+.menu li a:hover {
+ background-color: burlywood;
+ transition: all .5s;
+ color: rgb(119, 36, 214);
+}
+
+
+.menu-bar {
+    display: none;
+}
+
+
+
+.main {
+ display: flex;
+ justify-content: space-around;
+ margin-right: 1110px;
+ align-items: center;
+}
+
+.Content-info {
+    margin-top: 6em;
+    color: rgb(86, 14, 145);
+    left: 50px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 3px 14px -8px rgba(0,0,0,0.78);
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+.btn-toBuy, .read-more {
+    background-color: tomato;
+    padding: 8px 20px;
+    font-size: 0.8em;
+    border-radius: 20px;
+    border: none;
+}
+
+.read-more {
+    background: none;
+    border: 1px solid #fff;
+    color: tomato;
+    margin: 20px;
+}
+
+
+.Comprar {
+    width: 10px;
+    height: 10px;
+}
+
+
+.Container-footer {
+    position: absolute;
+    right: 15px;
+    
+}
+
+.Container-imagenes{
+    display: flex;
+    width: 1430px;
+    height: 510px;
+    background:rgba(223, 173, 219, 0.486);
+    padding: 5%;
+    border-radius: 6px;
+    
+}
+
+.container-imag1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.container-imag2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.container-imag3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+
+.container-contactanos {
+    width: 700px;
+    height: 350px;
+    background:rgba(223, 173, 219, 0.671);
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    position: absolute;
+    left: 10px;
+    top: 230px;
+}
+
+
+
+
+
